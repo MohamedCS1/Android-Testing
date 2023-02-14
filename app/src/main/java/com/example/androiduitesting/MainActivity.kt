@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buNext.setOnClickListener {
+        binding.buttonNext.setOnClickListener {
             val intent = Intent(this ,SecondaryActivity::class.java)
             startActivity(intent)
         }

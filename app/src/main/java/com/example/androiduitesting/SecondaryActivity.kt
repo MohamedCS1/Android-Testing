@@ -11,7 +11,7 @@ class SecondaryActivity : AppCompatActivity() {
         binding = ActivitySecondaryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buBack.setOnClickListener {
+        binding.buttonBack.setOnClickListener {
             onBackPressed()
         }
     }
